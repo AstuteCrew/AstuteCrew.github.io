@@ -24,11 +24,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: varunturlapati
-github_username:  varunturlapati
-medium_url: https://medium.com/@varunturlapati
-linkedin_url: https://www.linkedin.com/in/varunturlapati
+urls:
+  github_base: https://www.github.com/
+  linkedin_individual_base: https://www.linkedin.com/in/
+  linkedin_company_base: https://www.linkedin.com/company/
+  medium_base: https://medium.com/@ # keep the '@' suffix here because prefixing at user handle trips it up
+  twitter_base: https://www.twitter.com/
+  youtube_base: https://www.youtube.com/channel/
 
+investments:
+  syndicate_url: https://angel.co/chaanakya/syndicate
+  syndicate_name: Chaanakya
 
 social:
   domain: astutecrew.pro
@@ -36,9 +42,16 @@ social:
     general: hello@astutecrew.pro
     varun: varun@astutecrew.pro
     johana: johana@astutecrew.pro
-  twitter: https://www.twitter.com/
-  youtube: https://www.youtube.com/channel/
-  linkedin: https://www.linkedin.com/company/
+  linkedin:
+    company: astute-crew
+    varun: varunturlapati
+    johana: jcm-vega-l
+  twitter:
+    varun: varunturlapati
+  github:  varunturlapati
+  medium:
+    company: comingsoon
+    varun: varunturlapati
 colors:
   purple: 5404A4
   yellow: F6E820
